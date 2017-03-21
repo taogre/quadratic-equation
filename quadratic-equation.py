@@ -7,7 +7,7 @@ c = eval(input("Choose parameter c."))
 d = (b**2)-4*a*c
 
 if d>0:
-  print("No")
+  print("No solution!")
 elif d==0: 
   z = math.sqrt(d**2)
   x = (-b+math.sqrt(z))/2*a
